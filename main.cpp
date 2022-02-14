@@ -8,7 +8,6 @@ class OpenFile
     std::cout<<filename<<" is opened";
   }
 
-
 };
 
 auto main() -> int
