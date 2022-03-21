@@ -1,13 +1,9 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory 'c:/Users/ait_l.LAPTOP-6NFPIMOP/Dropbox/Working/C++'
-g++ -c Binomial.cpp
+g++ -c tempCodeRunnerFile.cpp
  
-g++ -c main.cpp
-g++ -c Personne.cpp
- 
-g++ -c qt.cpp
- 
-g++ -c RatesModels.cpp
-g++ -o ex02 Binomial.o main.o Personne.o qt.o RatesModels.o -lm
+g++ -c Vect.cpp
+g++ -c QuickSort.cpp
+g++ -o ex02 tempCodeRunnerFile.o Vect.o QuickSort.o -lm
 make.exe: Leaving directory 'c:/Users/ait_l.LAPTOP-6NFPIMOP/Dropbox/Working/C++'
  

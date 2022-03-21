@@ -1,0 +1,7 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/ait_l.LAPTOP-6NFPIMOP/Dropbox/Working/C++'
+g++ -c test.cpp
+g++ -c main.cpp
+g++ -o ex02 test.o main.o -lm
+make.exe: Leaving directory 'c:/Users/ait_l.LAPTOP-6NFPIMOP/Dropbox/Working/C++'
+ 

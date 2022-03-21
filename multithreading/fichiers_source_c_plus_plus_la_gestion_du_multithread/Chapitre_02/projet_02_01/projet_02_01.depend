@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1439374340 source:c:\users\trainer\documents\projetscppmultithread\projet_02_01\main.cpp
+	<thread>
+	<iostream>
+	<mutex>
+
