@@ -50,7 +50,7 @@ def process_workoob(filename):
                 print(country+ ": "+ticker+ "=> KO")
                 continue
         
-        print(country+ ": "+ticker+ "=> OK")
+        print(country+ ": "+ ticker + "=> OK")
         df = pd.DataFrame(resp_dict.get('data'))
 
         for row in range(2,len(df['last_close'])):
